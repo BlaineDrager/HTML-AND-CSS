@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>google</title>
+    <style>
+        body {
+            height: 100vh;
+            margin: 0;
+
+            font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard Variable", Pretendard, Roboto, "Noto Sans KR", "Segoe UI", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+
+            align-items: stretch;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+
+        #header {
+            padding: 0.75rem 0.375rem; /*해당 공간의 내부 크기를 지정 margin의 경우 외부 크기를 지정*/
+            background-color: wheat;
+        }
+
+        #main {
+            flex-grow: 1; /* 각 공간의 거리를 지정해 주는 것*/
+            
+            background-color: grey;
+            align-items: center;
+            display: flex;
+            flex-direction: ;
+            justify-content: flex-start;
+        }
+
+        #footer {
+            background-color: bisque;
+
+            align-items: stretch;
+            display: flex; /*자식요소 배치*/
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+
+        #footer > .menu {
+            margin-block: 0;
+            margin-inline: ;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        헤더
+    </header>
+    <main id="main">
+        메인
+    </main>
+    <footer id="footer">
+        <div class="region">대한민국</div>
+        <ul class="menu">
+            <li>
+                <a href="#" class="link">광고</a>
+            </li>
+            <li>
+                <a href="#" class="link">비즈니스</a>
+            </li>
+            <li>
+                <a href="#" class="link">검색의 원리</a>
+            </li>
+            <li class="spring"></li>
+            <li>
+                <a href="#" class="link">개인정보처리방침</a>
+            </li>
+            <li>
+                <a href="#" class="link">약관</a>
+            </li>
+            <li>
+                <a href="#" class="link">설정</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
